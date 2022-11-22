@@ -1,0 +1,24 @@
+<template>
+  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_418_733)">
+    <path d="M29.1581 19.9467C29.6986 18.398 29.9924 16.7333 29.9924 15C29.9924 6.7157 23.2799 0 14.9999 0C6.71995 0 0.0078125 6.7157 0.0078125 15C0.0078125 19.099 1.65136 22.8141 4.31478 25.5216L19.5224 10.3058L23.2769 14.0626L29.1581 19.9467ZM26.4197 24.7197L19.5224 17.819L8.72183 28.6254C10.6315 29.5077 12.7582 30 14.9999 30C19.5741 30 23.6697 27.9507 26.4197 24.7197Z" :fill="fill"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_418_733">
+    <rect width="30" height="30" fill="white"/>
+    </clipPath>
+    </defs>
+    </svg>
+    
+
+</template>
+<script>
+export default {
+  props: {
+    fill: {
+      type: String,
+      default: '#838383'
+    }
+  }
+}
+</script>

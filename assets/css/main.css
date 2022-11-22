@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .page {
+    @apply relative w-screen h-screen bg-gray-200
+  }
+  .side-content{
+    @apply grid content-center justify-items-center h-20 hover:bg-blue-50 text-[10px] font-medium
+    
+  }
+
+  .side-content-active {
+    @apply hover:bg-[#0073C0] bg-[#0073C0] text-white
+  }
+
+  .container{
+    @apply fixed top-14 right-0  w-full h-full  mx-auto
+  }
+
+  .nav-item {
+    @apply flex w-[200px] items-center bg-gray-100 justify-start border-blue-500 
+  }
+
+  .content {
+    @apply w-full h-full bg-gray-100 relative p-[5%]
+  }
+
+  .nav-item-content {
+    @apply text-[#303030] text-center text-[13px] font-medium py-[10px] w-full border-b
+
+  }
+
+  .core-service, .app-catalog {
+    @apply grid  w-full h-auto gap-4 pt-8  
+  }
+  .core-service h1, .app-catalog h1 {
+    @apply text-[#303030] text-[13px] font-medium
+  }
+  .core-service p, .app-catalog p {
+    @apply text-gray-500 text-[10px] font-normal
+  }
+
+  .core-service .box, .app-catalog .box{
+    @apply flex w-full h-[80px] bg-white p-3 rounded-xl items-center justify-between
+  }
+  .img{
+    @apply  grid justify-items-center content-center w-[55px] h-[55px] bg-blue-100 rounded-lg mr-3
+  }
+
+  .content-3 {
+    @apply h-full w-full grid gap-4 grid-cols-3 mt-9
+  }
+  .content-3 h1 {
+    @apply text-lg font-semibold
+  }
+
+  .content-items h1 {
+    @apply text-[#303030] text-[13px] font-medium
+  }
+  .content-items p {
+    @apply text-gray-500 text-[10px] font-normal
+  }
+  .btn{
+    @apply flex items-center justify-center w-auto px-3 h-[22px] rounded-2xl text-[10px] font-medium
+  }
+
+  label {
+    @apply text-[#303030] font-medium text-[13px] w-[140px]
+  }
+  .input-text{
+    @apply w-[340px] h-[40px] px-3
+  }
+  .description {
+    @apply text-[#838383] text-[10px] font-normal w-[284px] ml-[30px]
+  }
+}
